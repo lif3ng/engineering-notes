@@ -27,7 +27,7 @@ jobs:
           git config --global user.email "lif3ng@deploy"
           git config --global user.name "lif3ng"
       - run: |
-          cd docs/.vuepress/dist
+          cd docs/.vitepress/dist
           git init
           git add -A
           git commit -m 'deploy'
